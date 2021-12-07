@@ -30,7 +30,7 @@ if (config.MODE === 'development') {
 }
 
 app.get('/', (req, res) => {
-  res.send('API! go to `/api`');
+  res.send('API! go to tugb `/api`');
 });
 app.use('/api', routes);
 
