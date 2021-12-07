@@ -30,6 +30,7 @@ if (config.MODE === 'development') {
 }
 
 app.get('/', (req, res) => {
+  res.sendFile('../index.html');
   res.send('API! go to tugb sddfg `/api`');
 });
 app.use('/api', routes);
